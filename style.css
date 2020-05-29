@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 17px;
+  color: aqua;
+  line-height: 1.6;
+}
+p{
+  color:yellow;
+  font-size: 18px;
+  font-weight: bolder;
+}
+h3{
+  color:salmon;
+
+}
+h4{
+  color: salmon;
+}
+h5{
+  color:salmon;
+  font-size: 17px;
+}
+#showcase{
+  background-image:url('../img/showcase.jpg');
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  text-align: left;
+
+}
